@@ -24,22 +24,22 @@
     <div class="app-bg" :style="appBgStyle"></div>
 
     <div class="app-content">
-      <h2 style="color: #c00;">请勿基于原版代码构建网站，以免影响原网站SEO，除非大量修改源代码。感谢配合开源工作。</h2>
-      <h4 style="color: #c00;">Do not build a website based on the original source code, so as not to affect SEO of the original website, unless a large number of changes in the source code. Thank you for your cooperation.</h4>
-      <PageHeader></PageHeader>
-      <RandomLyric></RandomLyric>
+      <h2 style="color: #c00;">HAPPY钢琴</h2>
+      <h4 style="color: #c00;">HAPPY钢琴</h4>
+<!--      <PageHeader></PageHeader>-->
+<!--      <RandomLyric></RandomLyric>-->
       <Piano></Piano>
-      <div class="score-section responsive-section-a">
-        <ManualPlayScoreList></ManualPlayScoreList>
-        <AutoPlayScoreList></AutoPlayScoreList>
-      </div>
+<!--      <div class="score-section responsive-section-a">-->
+<!--        <ManualPlayScoreList></ManualPlayScoreList>-->
+<!--        <AutoPlayScoreList></AutoPlayScoreList>-->
+<!--      </div>-->
       <h2 class="section-title responsive-section-a">探索实体乐器</h2>
       <CommodityList />
-      <div class="right-drawer" :class="{'show': rightDrawerShow}">
-        <div class="trigger" @click="toggleRightDrawer">歌曲列表</div>
-        <div class="close" @click="hideRightDrawer">X</div>
-        <ManualPlayScoreList></ManualPlayScoreList>
-      </div>
+<!--      <div class="right-drawer" :class="{'show': rightDrawerShow}">-->
+<!--        <div class="trigger" @click="toggleRightDrawer">歌曲列表</div>-->
+<!--        <div class="close" @click="hideRightDrawer">X</div>-->
+<!--        <ManualPlayScoreList></ManualPlayScoreList>-->
+<!--      </div>-->
       <div class="blank-page-pc" style="height: 200px;"></div>
       <PageFooter></PageFooter>
     </div>
